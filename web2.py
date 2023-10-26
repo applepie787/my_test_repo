@@ -18,7 +18,7 @@ for post in posts:
     price = price.text.strip().replace("\n", "")
     addr = addr.text.strip().replace("\n", "")
     print("{0}, {1}, {2}".format(title, price, addr))
-    f.write(f"{title}, {price}, {addr}\n")
+    f.write(f"{title}, {price}, {addr}")
 
 f.close()
 # <div class="card-desc">
