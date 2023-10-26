@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from openpyxl import Workbook
 
-search_keyword='아이폰14'
+search_keyword='맥북'
 
 url = f'https://search.naver.com/search.naver?where=view&sm=tab_jum&query={search_keyword}'
 
